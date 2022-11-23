@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Signika+Negative:wght@500&family=Sono:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(183, 212, 222);
+    width: 400px;
+    font-family: 'Sono', sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 33px 0;
+    font-size: 27px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    list-style: none;
+    padding: 33px 0;
+    font-size: 27px;
+    color: black;
+}
+.main{
+    background-color: white;
+    width: 76vw;
+    padding-right: 0px;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    background-color: rgb(100, 93, 160);
+    height: 505px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 0px;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 22px;
+    font-family: 'Signika Negative', sans-serif;
+    /* margin: 29px; */
+    padding-left: 45px;
+}
+.aboutme{
+    background-color: rgb(66, 59, 127);
+    width: 1370px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    /* margin: 20px auto; */
+    padding-left: 130px;
+    padding-bottom: 0px;
+}
+.Services{
+    background-color: rgb(100, 93, 160);
+    width: 1370px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    /* margin: 20px auto; */
+    padding-left: 130px;
+    padding-bottom: 0px;
+}
+.RecentProjects{
+    background-color: rgb(66, 59, 127);
+    width: 1370px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    /* margin: 20px auto; */
+    padding-left: 130px;
+    padding-bottom: 0px;
+}
+.CV{
+    background-color: rgb(100, 93, 160);
+    width: 1370px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    /* margin: 20px auto; */
+    padding-left: 130px;
+    padding-bottom: 0px;
+}
+
+.contactme{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(66, 59, 127);
+    width: 1370px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    /* margin: 20px auto; */
+    padding-top: 0px;
+    padding-left: 130px;
+}
+.devPic img{
+    height: 494px;
+    border-radius: 50%;
+    border: 5px solid #555;
+    border-color: black;
+    box-shadow: 1px 10px 100px -0.000001px whitesmoke;
+}
+.devPic img:hover{
+    transform: scale3D(1.2, 1.2, 1);
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+}
+.hello{}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Sono', sans-serif;
+}
+.about{}
+
+.buttons button{
+    background-color: royalblue;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: bolder;
+    font-size: 18px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.container a img{
+    padding: 20px;
+}
+.container1{
+    display: flex;
+    padding-left: 80px;
+    font-size: 25px;
+}
+.form-control{
+    height: 25px;
+    width: 200px;
+    border-radius: 6px;
+}
+.container2{
+    display: flex;
+    background-color: rgb(180, 180, 243);
+    padding-left: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 746px;
+    height: 100px;
+}
+.container2 :hover{
+    transform: scale3D(1.05,1.1,1);
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    /* height: 105px;
+    width: 756px; */
+}
+.container2 img{
+    border-radius: 50%;
+    height: 100px; 
+    width: 100px;
+}
+.container2 p{
+    margin: 0%;
+    padding: 0%;
+    width: 746px;
+    height: 100px;
+    background-color: rgb(180, 180, 243);
+    border-radius: 10px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    width: 300px;
+    border-radius: 26px;
+    background-color: rgb(201, 201, 239);
+    padding: 2px 3px;
+    margin: 20px;
+}
+.container3 img{
+    height: 180px;
+    width: 300px;
+    border-radius: 25px;
+}
+.container3 p{
+    padding-bottom: 2px;
+    text-align: center;
+}
+.container3:hover{
+    transform: scale3D(1.1,1.1,1);
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+}
+
