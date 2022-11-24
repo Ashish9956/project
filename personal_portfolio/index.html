@@ -155,6 +155,23 @@ font-awesome.min.css">
         
         
     </div>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script>
+        function sendEmail() {
+            let email=document.getElementById("clientemail").value;
+            let phone=document.getElementById("clientphone").value;
+            let body="email:"+email+"<br/> phone:"+phone;
+            Email.send({
+                SecureToken: "6df5a6be-ab92-4cc8-8028-8db70d758c4a",
+                To: 'devanshchauhan08@gmail.com',
+                From: "aashishashu712@gmail.com",
+                Subject: "contact detail of client",
+                Body: body
+            }).then(
+                message => alert("detail send successfully")
+            );
+        }</script>
     
 </body>
 </html>
